@@ -9,4 +9,20 @@ class UsersController extends Controller
     public function index(){
         return view('users.liste');
     }
+
+    public function createUser(){
+
+    }
+
+    public function updateUser(){
+        
+    }
+
+    public function detailUser(){
+        return view('users.detail');
+    }
+
+    public function detailUserId(){
+        
+    }
 }
